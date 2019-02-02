@@ -6,7 +6,7 @@ def get_overview():
     try:
         import urtutils as urtu
     except Exception as e:
-        import urtoday.urturils as urtu
+        import urtoday.urtutils as urtu
     d = days.get()
     try:
         avg = urtu.get_average(d)
